@@ -14,11 +14,11 @@ public class CustomMetadata {
 
   @Getter
   @Setter
-  private String tableName;
+  public String tableName;
   
   @Getter
   @Setter
-  private ArrayList<HashMap<String,String>> columnData;
+  public ArrayList<HashMap<String,String>> columnData;
 
   public CustomMetadata(){}
   public CustomMetadata(String a){
